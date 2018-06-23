@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Untitled</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">How we do it</a></li>
+							<li><a href="#two">Success story</a></li>
+							<li><a href="#three">Adavntages</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>GitForce</h1>
+							<p>We don’t give a fuck about GitFlow, GithubFlow,<br />
+							feature-branches and other branching stuff and git-related shit.</p>
+							<p>We just do projects that works.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h2 style="text-transform: uppercase">Our way</h2>
+									<p>All you need is to agree within the team. If you need a deploy to stage, stable, production or whatever you just do:</p>
+									<pre>
+git checkout [your fucking branch to deploy]
+git fetch origin
+git reset --hard origin/develop
+git push [your fucking branch to deploy] --force
+									</pre>
+									<hr>
+									<h2 style="text-transform: uppercase">If you've fucked up</h2>
+									<p>If you need a hot-fix, no problem - just make two pull requests:</p>
+									<pre>
+git checkout [your fucking branch to deploy]
+... <-- Make your shit here
+git push [your fucking branch to deploy]
+git checkout develop
+git cherry-pick [your fucking commit with hot fix]
+git push develop
+									</pre>
+									<hr>
+								</div>
+							</div>
+						</section>
+						<section id="two">
+							<a href="#" class="image"><img src="images/harold.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2 style="text-transform: uppercase">Easy workflow = Success</h2>
+									<p>During the next deploy you'll reset your fucking branch to current develop.<br /> The only thing you need is not to fuck up hot fixes from previos deploy!</p>
+									<ul>
+										<li>Persistent history.</li>
+										<li>No problems.</li>
+										<li><strong>No fucking merge-conflicts.</strong></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+					<section>
+						<section>
+							<div style="margin-bottom: -1em">
+								<img src="images/success.jpg" alt="" width="100%" />	
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="three" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2 style="text-transform: uppercase">Key benefits</h2>
+							<p style="color: rgba(255, 255, 255, 0.95)">If you are still in doubt, here is a list of benefits that will make you choose GitForce or go fuck yourself!</p>
+							<p style="color: rgba(255, 255, 255, 0.95)">You can tell about GitForce to your co-workers, your wife, your drugdealer or even your imaginary friend! You can share it in all fucking social networks! We don't give a fuck, because this methodology is awesome, bitch!</p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-cog"></span>
+									<h3>Tested in practice</h3>
+									<p>We have 6+ successful projects based on this methodology.</p>
+								</section>
+								<section>
+									<span class="icon major fa-check-circle"></span>
+									<h3>Satisfied customers</h3>
+									<p>Our customers don't give fuck about this. They just need working stuff on a server.</p>
+								</section>
+								<section>
+									<span class="icon major fa-medkit"></span>
+									<h3>Healthy atmosphere in dev team</h3>
+									<p>Everyone from dev team could make a release. No one cares about merge conflicts.</p>
+								</section>
+								<section>
+									<span class="icon major fa-heart"></span>
+									<h3>Rich sexual life</h3>
+									<p>You have more time for life. So you can fuck your girlfriend (or boyfriend) and not your code.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li style="color: rgba(255, 255, 255, 0.75)">&copy; GitForce. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
