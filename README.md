@@ -1,1 +1,1 @@
-# GitForce - brand new GitFlow alternative for successfull projects
+# Best git practice ever, be successful with http://gitforce.rocks/
